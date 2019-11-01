@@ -1,0 +1,51 @@
+body {
+  font: 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  top: 15%;
+  /*starting from direction "to right", then adding the start color and then the end color*/
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+}
+
+h1 {
+  font: 600 3.5em 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+  color: rgba(0,0,0,.5);
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 0.01em;
+}
+
+.secret {
+  font-size: 20px;
+  background-color: blanchedalmond;
+  color: rebeccapurple; 
+  height: 100px;
+  width: 200px;
+  background-color: white;
+  border: 3px solid grey;
+  box-shadow: 2px 2px grey;
+  border-radius: 30px;
+  padding:10px;
+  font-weight: bold;
+}
+
+.secret:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.emoji {
+  font-size: 30px;
+  padding: 10px;
+}
